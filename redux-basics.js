@@ -18,6 +18,7 @@ const rootReducer = (state = initialState, action) => {
             counter: state.counter + action.value
         };
     }
+
     return state;
 };
 
